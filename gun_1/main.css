@@ -1,0 +1,74 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color: #ECF0FF;
+}
+.container{
+    padding-right: 301px;
+    display: flex;
+    flex-direction: column;
+}
+.mavi_kutu{
+    background-color: #5074F3;
+    width: 348px;
+    height: 1199px;
+    align-self: center;
+    position: absolute;
+}
+.beyazkutu{
+    margin-left: 517px; 
+    margin-top: 300px;
+    margin-right: 517px;
+    margin-bottom: 300px;
+    background-color: #FFFFFF;
+    align-items: center;
+    height: 597px;    
+    position: relative;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.helpdivi{
+ font-weight: bold;
+ font-size: 22px;
+ 
+ 
+}
+.heredivi{
+    display: flex;
+    margin-top: 20px; 
+    width: 375px;
+    height: 56px;
+    align-content: stretch;
+    margin-bottom: 34px;
+}
+.orderlar{
+    display: flex;
+    flex-direction: column;
+    color: #5074F3;  
+    
+}
+.managedivi, .orderingdivi, .profiledivi{
+    margin-top: 20px;
+    padding-left: 29px;
+    width: 386px;
+    height: 67px;
+    border: 1px solid;
+    border-radius: 5px;   
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+ }
+.profiledivi{ 
+   color: #FFF;
+   background-color: #5074F3;
+ }
+ .managedivi svg,  .orderingdivi svg, .profiledivi svg{
+     padding-right: 25px;
+     
+ }
+ 

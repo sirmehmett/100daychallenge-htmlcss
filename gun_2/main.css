@@ -1,0 +1,106 @@
+@import url(reset.css);
+body{   
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #bfbeff;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+}
+.container-looking{
+    position: relative;
+    width: 672px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+
+}
+.exitbutton{
+    position: absolute;
+    top: 30px;
+    right: 30px;    
+}
+.tittle{
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.text{
+    font-size: 22px;
+    margin-bottom: 55px;
+}
+.button{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    width: 177px;
+    height: 59px;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-job{
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 102px;
+    padding-left: 123px;
+    padding-right: 121px;
+    border-radius: 25px;
+}
+.post{
+    text-align: center;   
+}
+.post h2{
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.post p{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.company-input{
+ display: flex;
+ flex-direction: column;
+ margin-top: 70px;
+
+}
+.company-input label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+ .company-input input{
+     font-size: 22px;
+     border-radius: 5px;
+     border: 1px solid #D9DDF1;
+     padding: 20px 30px;
+ }
+ .buttons{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 48px;
+ }
+ .cancel{
+     background-color: #FFFFFF;
+     color: black;   
+     font-weight: normal;
+     display: flex;
+     justify-content: flex-start;
+ }
+.next span{
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+
+}

@@ -1,172 +1,92 @@
 @import url(reset.css);
-body{
-    font-family: 'Merriweather', serif;
+body{   
     font-family: 'Mulish', sans-serif;
-    width: 1440px;
+    background-color: #e5e5e5;
+     display: flex;
+     flex-direction: column;
+     align-items: center;    
 }
-.zemin{
-    background-color: #F4F8FD;
+.container{
+  background-color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  position: relative;
+  
 }
-.zemin .navigator{
+.container .exitbutton{
+    position: absolute;
+    top:30px;  
+    right: 30px;
+}
+  .tittle{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text{
+     font-size: 18px;
+     margin-bottom: 30px;
+     width: 557px;
+}
+.share{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
-    font-weight: bold;
-    align-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #FFFFFF;
 }
-.zemin .navigator .leftmenu{
-    display: flex;
-    justify-content: flex-start;
-}
-.zemin .navigator .leftmenu h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 26px;
-    margin-left: 26px;
-}
-.zemin .navigator .leftmenu h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 50.50px;
-    color:  rgba(9, 24, 63, 0.7);
-
-}
-.zemin .navigator .rightmenu{
+.share label{
+    background-color: #9677EF;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.zemin .navigator .rightmenu h6{
-    margin: 0  40px;
-    color:  rgba(9, 24, 63, 0.7);
-
-}
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    width: 115px;
-    height: 42px;
-    color: #FFF;
-    background: rgb(255,116,141);
-    background: linear-gradient(90deg, rgba(255,116,141,1) 0%, rgba(255,142,79,1) 100%);
-}
-.topmenu img{
-    position: relative;
-    
-}
-.topmenu h1{
-    margin-bottom: 24px;
-    font-family: 'Merriweather', serif;
-    font-size: 36px;
-    font-weight: bold;
-}
-.topmenu h2{
-    margin-bottom: 37px;
-    font-family: 'Mulish', sans-serif;
+    border-radius:5px;
+    width: 103px;
+    height: 49px;
     font-size: 18px;
-    width: 519px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 4px  rgba(150, 119, 239, 0.25);
+
 }
-.topmenu h3{
-    width: 136px;
-}
-.topmenu {
-    background-image: url('orgu.png');
-    background-size: 1440px 430px;
-    width: 1440px;
-    height: 430px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
-.topmenu .siyah{
-    padding: 57px 63px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px ;
-    background-color:rgba(9, 24, 63, 50%);
-}
-.bottommenu{
-    display: flex;
-    justify-content: center;
-    align-items:center
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bottommenu{
-    margin-top: 111px;
-    display: flex;
-}
-.bottommenu .shopmenu{
+.share input{
+    border:1px solid;
+    width: 510px;
+    padding-left: 20px;
+    height: 49px;
     border-radius: 5px;
-    background-color: #FFF;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 22px;
+    
 }
-.bottommenu .shopmenu h1{
-    width: 271px;
-    line-height: 46px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 26px;
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
-    margin-top: 51px;
-    margin-bottom: 13px;
+.guideandaccept {
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #F8F9FD;
+    
 }
-.bottommenu .shopmenu h2{
-    width: 379px;
-    line-height: 26px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    font-size: 16px;
-    margin-bottom: 25px;
-}
-.bottommenu .shopmenu h3{
-    color: #09183F;
-    background-color: #FFF;
-    width: 183.52px;
-    height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.guideandaccept .guide{
     font-size: 14px;
     font-weight: bold;
-    border-radius: 50px;
-    border:1px solid #09183F;
-    margin-bottom: 40px;
-}
+    width: 124px;
+    height: 18px;
+    color: #494949;
+    margin-top: 30px;
+    margin-left: 20px;
     
+}
+.guideandaccept .accept{
+    font-size: 14px;
+    color: #494949;
+    width: 467px;
+    line-height: 21px;
+     margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+.guideandaccept span{
+    text-decoration: underline;
+
+    color:#9677EF;
+}
+

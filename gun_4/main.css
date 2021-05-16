@@ -1,0 +1,172 @@
+@import url(reset.css);
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    width: 1440px;
+}
+.zemin{
+    background-color: #F4F8FD;
+}
+.zemin .navigator{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+.zemin .navigator .leftmenu{
+    display: flex;
+    justify-content: flex-start;
+}
+.zemin .navigator .leftmenu h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+.zemin .navigator .leftmenu h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 50.50px;
+    color:  rgba(9, 24, 63, 0.7);
+
+}
+.zemin .navigator .rightmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zemin .navigator .rightmenu h6{
+    margin: 0  40px;
+    color:  rgba(9, 24, 63, 0.7);
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 115px;
+    height: 42px;
+    color: #FFF;
+    background: rgb(255,116,141);
+    background: linear-gradient(90deg, rgba(255,116,141,1) 0%, rgba(255,142,79,1) 100%);
+}
+.topmenu img{
+    position: relative;
+    
+}
+.topmenu h1{
+    margin-bottom: 24px;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.topmenu h2{
+    margin-bottom: 37px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    width: 519px;
+}
+.topmenu h3{
+    width: 136px;
+}
+.topmenu {
+    background-image: url('orgu.png');
+    background-size: 1440px 430px;
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.topmenu .siyah{
+    padding: 57px 63px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px ;
+    background-color:rgba(9, 24, 63, 50%);
+}
+.bottommenu{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottommenu{
+    margin-top: 111px;
+    display: flex;
+}
+.bottommenu .shopmenu{
+    border-radius: 5px;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 22px;
+}
+.bottommenu .shopmenu h1{
+    width: 271px;
+    line-height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-top: 51px;
+    margin-bottom: 13px;
+}
+.bottommenu .shopmenu h2{
+    width: 379px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.bottommenu .shopmenu h3{
+    color: #09183F;
+    background-color: #FFF;
+    width: 183.52px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    border:1px solid #09183F;
+    margin-bottom: 40px;
+}
+    

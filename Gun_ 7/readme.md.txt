@@ -1,1 +1,0 @@
-final haftası ve proje ödevlerinden dolayı ara vermiştim, aksilik çıkmazsa devam ediyorum.

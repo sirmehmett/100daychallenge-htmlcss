@@ -1,1 +1,0 @@
-Final haftası ve proje ödevlerim olduğu için ara vermek durumunda kalmıştım, aksilik çıkmazsa css arayüz kodlama ve js'e devam edeceğim.
